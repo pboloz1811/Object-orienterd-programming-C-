@@ -9,5 +9,10 @@
 
 template<typename T>
 T Container<T>::getValue(){
-	return this -> value;
+	return this -> _value;
+}
+
+template<typename T>
+void Container<T>::setValue(T value){
+	this -> _value = value;
 }

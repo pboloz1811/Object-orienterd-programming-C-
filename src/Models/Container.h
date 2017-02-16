@@ -9,9 +9,10 @@
 #define MODELS_CONTAINER_H_
 template<typename T>
 class Container {
-	T value;
+	T _value;
 public:
 	T getValue();
+	void setValue(T value);
 };
 
 #endif /* MODELS_CONTAINER_H_ */
